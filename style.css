@@ -1,0 +1,166 @@
+*{
+  margin:2px;
+  padding: 0;
+}
+body {
+    font-size: 15pt;
+}
+li:hover{
+  color:blue;
+}
+h5{
+  color: white;
+}
+#services{
+  padding: 30px 0;
+  
+
+}
+.simg{
+  height:200px;
+  width:220px;
+  
+  margin-top: 10px;
+  border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.services{
+  margin:40px;
+  border:2px solid wheat;
+  border-radius:50px;
+ 
+  
+}
+.services h4{
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+  color:blue;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 500px)
+{
+  .services{
+    margin:0;
+    margin-bottom:20px;
+    
+    
+  }
+ 
+  .carousel{
+    margin-top:90px;
+    
+  }
+ 
+@media only screen and (max-width:490px)
+{
+  .simg{
+    width:250px;
+    
+   
+  }
+  
+}
+}
+.sh1{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.nav{
+  background-image: linear-gradient(to right, #27dbf9, #00caf9, #00b9f8, #00a6f3, #1293eb);
+  margin:0;
+ 
+}
+.cou{
+  margin-right:10px;
+ 
+}
+.footer{
+   background-image: linear-gradient(to right, #27dbf9, #00caf9, #00b9f8, #00a6f3, #1293eb);
+  
+}
+h3{
+  color:#fff;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+.footer-box{
+  padding:20px;
+}
+.sicons img{
+  width:40px;
+  transition:0.5s;
+}
+.sicons a:hover img{ 
+  transform:translateY(-10px);
+}
+.add{
+  color:#fff;
+  margin-top:10px;
+}
+.fl{
+  list-style-type:'👉';
+}
+.sh1::before{
+  content: '';
+  background-image: linear-gradient(to right, #27dbf9, #00caf9, #00b9f8, #00a6f3, #1293eb);
+  height: 5px;
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(50px);
+}
+
+.breadc{
+  background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+ height:300px;
+ 
+ 
+}
+.breadcrumb{
+  margin-left:300px;
+ 
+  
+ 
+}
+.al li{
+  margin-top: 180px;
+ font-size: 35px;
+}
+@media only screen and (max-width: 500px)
+{
+  .breadcrumb{
+  margin-left:50px;
+  }
+  .al li{
+    font-size :20px;
+  }
+
+  
+}
+.ab{
+  margin-top:40px;
+}
+.imgs{
+  width:300px;
+  margin-top: 20px;
+  border-radius:50px;
+}
+.map{
+  color:#fff;
+  margin-top: 50px;
+}
+.mapi{
+  width:25px;
+  
+}
