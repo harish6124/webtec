@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body onload="welcome()">
+    
+    <section class="nav">
+    <nav class=" navbar navbar-default fixed-top navbar-expand-lg navbar-light  nav">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="#"><h3 id="title">Name</h3></a>
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Home
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Submenu1</a></li>
+            <li><a class="dropdown-item" href="#">Submenu2</a></li>
+             <li><a class="dropdown-item" href="#">Submenu3</a></li>
+            
+          </ul>
+        </li>
+        
+    </div>
+  </div>
+</nav>
+  </section>
+
+<!-- Carousel -->
+<section class="carousel">
+ 
+<div id="carouselExampleCaptions" class="carousel slide cou" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <button type"button" class="btn btn-primary"> know More</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second </h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <button type"button" class="btn btn-primary"> know More</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+         <button type"button" class="btn btn-primary"> know More</button>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+  
+  
+
+</section>
+ 
+ <!--service box -->
+ <h1 class="sh1">WHAT WE DO?</h1>
+ <section id="services">
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-md-3  services">
+         <img src= "https://image.freepik.com/free-vector/people-drawing-web-page-elements-smartphone-lcd-screen-illustration_335657-293.jpg"class="simg">
+         <h4>Front end developer</h4>
+         <p>Front-end web development is the practice of converting data to a graphical interface</p>
+           <a href="" class="btn btn-primary">Read More</a>
+         
+         </div>
+      
+         <div class="col-md-3 services">
+         <img src="https://image.freepik.com/free-vector/back-end-development-it-concept_126283-67.jpg" class="simg">
+         <h4>Back end develpor</h4>
+         <p>The back end refers to parts of a computer application or a program's code that allow it to operate and that cannot be accessed by a user</p>
+         <a href="" class="btn btn-primary">Read More</a>
+         </div>
+         
+         <div class="col-md-3 services">
+           <img src="https://image.freepik.com/free-vector/big-data-analytics-abstract-concept-illustration-big-data-mining-automated-analytics-system-information-analysis-pattern-recognition-info-systematization_335657-361.jpg" class="simg ">
+           <h4>Database System</h4>
+           <p>Database Management Systems. A database server or DBMS searches and manages data that's stored in databases.</p>
+            <a href="" class="btn btn-primary">Read More</a>
+         </div>
+         
+         
+         
+
+   </section>
+
+ <!--footor -->
+ <section class="footer">
+   
+   <div class="container">
+     
+     <div class="row">
+      
+     <div class="col-md-4 footer-box">
+       <h3>Company Name</h3>
+       <ul class="fl">
+         <li><a href="">About</a></li>
+          <li><a href="">Contact us</a></li>
+           <li><a href="">Services</a></li>
+         
+         </ul>
+       </div>
+       <div class="col-md-7 footer-box">
+         <h3>Find us on Social Media</>
+         <div class="sicons">
+           <a href=""><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-512.png"></a>
+         <a href=""><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/83-facebook-512.png"></a>
+         <a href=""><img src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_whatsapp-512.png"></a>
+          <a href=""><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_twitter-512.png"></a>
+       
+       
+       <p class="add"> Address: 262/2 Address of company</p>
+       
+       </div>
+       <div class="col-md ">
+         <h5>@Copyright By Harish </h5>
+       </div>
+       
+       </section>
+
+ 
+ 
+ 
+ <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
